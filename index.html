@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memoirist </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">📝 Memoirist </div>
+  </header>
+
+  <main class="container">
+    <form id="noteForm">
+      <input type="text" id="noteTitle" placeholder="Enter note title..." required />
+      <textarea id="noteContent" placeholder="Write your note..." required></textarea>
+      <button type="submit">Add Note</button>
+    </form>
+
+    <section id="notesList" class="notes-grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
